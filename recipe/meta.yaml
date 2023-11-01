@@ -1,5 +1,5 @@
 {% set name = "napari-sif-reader" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-sif-reader-{{ version }}.tar.gz
-  sha256: c1e983ac5c6dca43838e18737c261e4362f7133174c9fa683cbdab49cb053d46
+  sha256: e0a480066a8970bf4c429f884af6c7edd5fae4a94584aa04fa0429134c8a4132
 
 build:
   noarch: python
