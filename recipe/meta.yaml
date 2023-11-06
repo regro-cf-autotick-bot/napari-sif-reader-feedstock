@@ -33,10 +33,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/rjlopez2/napari-sif-reader
+  home: https://pypi.org/project/napari-sif-reader
   summary: This is a simple wraper to read .sif format files from Andor Technology.
   license: BSD-3-Clause
   license_file: LICENSE
+  dev_url: https://github.com/rjlopez2/napari-sif-reader
 
 extra:
   recipe-maintainers:
